@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- sections of styles -->
+    <link rel="stylesheet" href="css/general.css">
+   
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+    
+    <title>Salud+</title>
+</head>
+<body>
+
+    <div class="background-section">
+        <section class="section-body">
+            <form class="calculadora" id="inputFormulario"> 
+
+                <h2 class="formulario-login__titulo">
+                    ¡Analiza tu metabolismo! <br> <span>Realiza el cálculo de tu IMC:</span>
+                </h2>
+                <label for="estatura">
+                    ¿Cuál es tu estatura en metros?
+                    <input 
+                    type="number"
+                    step="0.01"  
+                    class="input-estatura" 
+                    name="estatura" 
+                    placeholder="Ej. 1.80"
+                    id="inputEstatura">
+                </label>
+                <br><br>
+                <label for="peso">
+                    ¿Cuál es tu peso en libras?
+                    <input 
+                    type="number"
+                    step="0.01"    
+                    class="input-peso" 
+                    name="peso" 
+                    placeholder="Ej. 90"
+                    id="inputPeso">
+                </label>
+                <br><br>
+                <label for="" id="inputRespuesta">Resultado</label>
+                <br><br>
+                <button>Siguiente</button>
+            </form>
+            
+        </section>
+    </div>
+    <script src="js/Main.js"></script>
+
+</body>
+</html>
